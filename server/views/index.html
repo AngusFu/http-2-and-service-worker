@@ -1,0 +1,14 @@
+ 
+<ul>
+    <% imgs.forEach(function(img, index){ %>
+        <li>
+            <a href="/images/<%= img %>"><%= img %></a>
+        </li>
+    <% }) %>
+</ul>
+
+<script>
+    var imgs = '<%- JSON.stringify(imgs) %>';
+</script>
+
+<script src="/scripts/app.js"></script>
