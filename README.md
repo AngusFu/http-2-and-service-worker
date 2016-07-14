@@ -6,7 +6,7 @@ refrence:
 
 - [add-spdy-http-2-push-methods-to-koa-middleware/](http://stackoverflow.com/questions/34693381/add-spdy-http-2-push-methods-to-koa-middleware)
 
-1. first, generate ssl certificate
+1.first, generate ssl certificate
 
 ```bash
 
@@ -33,7 +33,7 @@ refrence:
 
 ```
 
-2. coding
+2.coding
 
 ```bash
 
@@ -55,7 +55,7 @@ refrence:
 [see the server code here](./server/index.js)
 
 
-3. run the server
+3.run the server
 
 ```bash
 
